@@ -9,21 +9,19 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_title": "Click here!"
+    /* "default_popup": "index.html" */
   },
   "permissions": [
     "activeTab",
     "storage",
-    "identity"
+    "identity",
+    "https://github.com/*"
   ],
   "background": {
     "scripts": [
       "background.js"
-    ],
-    "persistent": false
+    ]
   },
-  "oauth2": {
-    "client_id": "853213256034-kmarj40jv7mpj8ddju1nas7lkuc8191s.apps.googleusercontent.com",
-    "scopes":["https://www.googleapis.com/auth/contacts.readonly"]
-  },
+
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAypOYpXlKMscdnI3HAKEK6J4L4/aURtoLXXnhhiwZUGfpOT+kIjZTgbdKcddl5PYxs13ga/7Ag9GPRMOFlxmxumWJLemKlZxFeu7zrxORYMGHxn6JYwOu3DW0eLfNdq4x1arqNrtYAIADc9M6zvSWkoRG9DD7UyuVcYaTl2L8b/9ZoR8f7gU32FvVho8W/+nI+WA7otpkEKghO0BOx9M9yGezSWZ96gWttntUTgX9FhaCAxsAo+kD+POGQEj4lKh3/bMOHuRl6u0Pgu3YUlG4IDnT0akaYjqA4LBEzUMDeGJht24lqBvS3SWIZnVP4wPC1UrjCCjFF8mpFLnO2IWtNQIDAQAB"
 }
