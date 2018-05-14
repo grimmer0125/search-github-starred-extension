@@ -1,14 +1,17 @@
 {
   "manifest_version": 2,
 
-  "name": "Search GitHub Starred",
+  "name": "Site Shortcut-Search Your GitHub Starred Repo",
   "version": "1.0",
-  "description": "Open up Search GitHub Starred Site",
+  "description": "Open https://searchgithub.herokuapp.com/ in another tab to full-text search your starred repositories' Information",
   "version": "1.0",
 
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_title": "Search GitHub Starred"
+    "default_title": "site-searchgithub"
   },
   "permissions": [
   ],
